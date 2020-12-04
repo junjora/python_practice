@@ -59,13 +59,13 @@ def complement(Nucleotide):
         if ch == 'G':
             comp.append('C')
     return ''.join(comp)
-    
-def ReverseComplement(Pattern):
-    revComp = '' 
-    revComp = reverse(complement(Pattern))
-    return revComp
 
 def reverse(Text):
     reVerse = ''
     reVerse = Text[::-1]
     return reVerse
+    
+def ReverseComplement(Pattern):
+    revComp = '' 
+    revComp = reverse(complement(Pattern))
+    return revComp
