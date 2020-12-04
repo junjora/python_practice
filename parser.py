@@ -1,3 +1,5 @@
+#НЕ ДОДЕЛАН
+
 import requests
 #pip install requests
 from bs4 import BeautifulSoup
