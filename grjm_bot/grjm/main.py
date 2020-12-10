@@ -27,7 +27,7 @@ def debug_requests(f):
 def do_start(bot: Bot, update: Update):
     bot.send_message(
         chat_id.update.message.chat_id,
-        text="Hi, I'm GeraJimo",
+        text="Hi, I'm GeraJimo. Send me smth interesting",
     )
 
 def do_echo(bot: Bot, update: Update):
